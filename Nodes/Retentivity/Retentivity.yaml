@@ -97,7 +97,7 @@ Children:
     - Name: Node1
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Value: "/Objects/FuzzingDbWalFiles/CommDrivers"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -112,16 +112,6 @@ Children:
     DataType: Duration
     ReferenceType: HasProperty
     Value: "0:00:00:0.0000000"
-    Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "../../../CommDrivers"
-      Children:
-      - Name: Mode
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        Value: 2
   - Name: DeltaObserverEnabled
     Type: BaseDataVariableType
     DataType: Boolean
