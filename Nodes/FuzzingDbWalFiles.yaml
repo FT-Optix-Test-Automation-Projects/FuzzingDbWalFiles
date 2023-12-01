@@ -1,53 +1,66 @@
 Name: FuzzingDbWalFiles
+Id: g=44c399bf599bceba06c8fa96f437a1ce
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=e6834a9a5d6239394278159b67b97fc7
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=4aac0950c6a3d0dcc6e229766fbaa790
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
+    Id: g=d37aa452b85df107dc4537406686d827
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
 - Name: Authentication
+  Id: g=2c28ef49ca696b990e3a239871e9d925
   Type: PropertyGroup
   Children:
   - Name: DefaultUserFolder
+    Id: g=2064b83d538889c94c191957431d77b6
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/FuzzingDbWalFiles/Security/Users"
     Children:
     - Name: Kind
+      Id: g=e2b1e25a82fd93595e2a446e34e893e7
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
 - Name: PasswordPolicy
+  Id: g=adcf8c5fc747aa72b59ae57e2844540f
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=923126ea659c00384e4921207f3bbace
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
+    Id: g=4d433d3672085d69f4041ca951ba9837
     Type: BaseDataVariableType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=665583f8826c7081fb3fcc7ef7b65b2f
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
+    Id: g=45bd6272a2f466ca18eb266677c5f4a3
     Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=660375dc2aa62807c6a97583cea33d4c
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml
@@ -64,3 +77,14 @@ Children:
 - File: System/System.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
+- Name: RecipeSchema1
+  Id: g=a475415651eac23a2da15f02d378b5f0
+  Type: Alias
+  DataType: NodeId
+  Value: {"IdType":0,"Id":0,"Namespace":-1}
+  Children:
+  - Name: Kind
+    Id: g=5ccf92ce80af48fe14d291b16a73aea4
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}

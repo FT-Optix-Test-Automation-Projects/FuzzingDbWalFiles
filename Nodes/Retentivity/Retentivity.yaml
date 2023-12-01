@@ -1,118 +1,231 @@
 Name: Retentivity
+Id: g=feb1edcc36a721049e5ca080366cf47d
 Type: RetentivityCategoryFolder
 Children:
 - Name: SecurityRetentivityStorage
+  Id: g=1bb31862caefa98bc33eba8b56b22ea7
   Type: RetentivityStorage
   Children:
   - Name: Nodes
+    Id: g=30d7fcae7e8c65bf38495b6f270a087a
     Type: BaseObjectType
     Children:
     - Name: Node1
+      Id: g=522b46e21d04a012c0f07c0554dee481
       Type: NodePointer
       DataType: NodeId
       Value: "/Objects/FuzzingDbWalFiles/Security"
       Children:
       - Name: Kind
+        Id: g=d98dc0e7b8be21234d50e22789b4b77d
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: NodeClass
+        Id: g=98b1f1c557c0db14d4c4a35b3d299cbf
         Type: PropertyType
         DataType: NodePointerNodeClass
         Value: 2
   - Name: WriteDelay
+    Id: g=ef28c0034f40cb7cf34231dc37164b38
     Type: BaseDataVariableType
     DataType: Duration
     ReferenceType: HasProperty
     Value: "0:00:00:0.0000000"
   - Name: DeltaObserverEnabled
+    Id: g=af22e1a9e47eff291d4b773082bcf809
     Type: BaseDataVariableType
     DataType: Boolean
     ReferenceType: HasProperty
     Value: true
 - Name: AlarmsRetentivityStorage
+  Id: g=2d59c91d4637c0380055375d7421c9c6
   Type: RetentivityStorage
   Children:
   - Name: Nodes
+    Id: g=5cd89364d85ca15ae83eb20d7e6ba1a7
     Type: BaseObjectType
     Children:
     - Name: Node1
+      Id: g=3d2d50be93c4d0dc08f7a5efc3e79683
       Type: NodePointer
       DataType: NodeId
       Value: "/Objects/FuzzingDbWalFiles/Alarms"
       Children:
       - Name: Kind
+        Id: g=0ef2253fa6034b23d75445a42ac4cb58
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: NodeClass
+        Id: g=d18c017ee547f93aead5b93868de9750
         Type: PropertyType
         DataType: NodePointerNodeClass
         Value: 2
   - Name: WriteDelay
+    Id: g=7650baeefbf3fb478ab3fc2c31966990
     Type: BaseDataVariableType
     DataType: Duration
     ReferenceType: HasProperty
     Value: "0:00:00:0.0000000"
   - Name: DeltaObserverEnabled
+    Id: g=5a884ac8af74894537a6fd0ee1c8513c
     Type: BaseDataVariableType
     DataType: Boolean
     ReferenceType: HasProperty
     Value: true
 - Name: ConvertersRetentivityStorage
+  Id: g=18a5008ab96b8f52613e6521eec89fdf
   Type: RetentivityStorage
   Children:
   - Name: Nodes
+    Id: g=9a49bd8ba75f1130a8d8d18565dec5fe
     Type: BaseObjectType
     Children:
     - Name: Node1
+      Id: g=fc530d0032f9bbf23fd67af284f4b30e
       Type: NodePointer
       DataType: NodeId
       Value: "/Objects/FuzzingDbWalFiles/Converters"
       Children:
       - Name: Kind
+        Id: g=13d57a3f887e5d7de7ccba1f637dd9e7
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: NodeClass
+        Id: g=70823431dd2493853dc26491e12e6238
         Type: PropertyType
         DataType: NodePointerNodeClass
         Value: 2
   - Name: WriteDelay
+    Id: g=721d3c54be34e0afd8f0383effbd0d28
     Type: BaseDataVariableType
     DataType: Duration
     ReferenceType: HasProperty
     Value: "0:00:00:0.0000000"
   - Name: DeltaObserverEnabled
+    Id: g=944fc298eac62da1f0f16cebd4726f0b
     Type: BaseDataVariableType
     DataType: Boolean
     ReferenceType: HasProperty
     Value: true
 - Name: CommDriversRetentivityStorage
+  Id: g=ce0ec0176597fafa8c9a8e02e82a2836
   Type: RetentivityStorage
   Children:
   - Name: Nodes
+    Id: g=a18dafe7e3379c164ee8f3ae8b6a7855
     Type: BaseObjectType
     Children:
     - Name: Node1
+      Id: g=d88f5506b89d55347cd97f7db7c647d8
       Type: NodePointer
       DataType: NodeId
       Value: "/Objects/FuzzingDbWalFiles/CommDrivers"
       Children:
       - Name: Kind
+        Id: g=8fb47d6d961347aca4727538255099f8
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: NodeClass
+        Id: g=72df39d7144d9262d035d5c1abeded44
         Type: PropertyType
         DataType: NodePointerNodeClass
         Value: 2
   - Name: WriteDelay
+    Id: g=eb16a8c11abcca5058b77beef1aa99ed
     Type: BaseDataVariableType
     DataType: Duration
     ReferenceType: HasProperty
     Value: "0:00:00:0.0000000"
   - Name: DeltaObserverEnabled
+    Id: g=49271cebe2109675928382eb7ac17dde
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true
+- Name: FewNodesRetentivitytStorage
+  Id: g=2e14fc9f8861f200897b539442f6a6a5
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Id: g=2b5be8fa7460463d6b21d55f6f6eeb1c
+    Type: BaseObjectType
+    Children:
+    - Name: Node1
+      Id: g=531aade0e299ca2b23e1a1f7da9ea9c6
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/FuzzingDbWalFiles/Model"
+      Children:
+      - Name: Kind
+        Id: g=27aed98191c74ed551efb2fb61369672
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=f8e2c6bbb1cc9dbb2790e1b1649c87ab
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+    - Name: Node2
+      Id: g=95b8ad0d6e8a0cf8f8ff5018e3d8e5cb
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/FuzzingDbWalFiles/OPC-UA"
+      Children:
+      - Name: Kind
+        Id: g=74527e35430051e181c3e3a4984996d7
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=333a800a8510f94e1aaa680a07edb1fa
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+    - Name: Node3
+      Id: g=ad4097464637bd2acc47556785e632fb
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/FuzzingDbWalFiles/DataStores"
+      Children:
+      - Name: Kind
+        Id: g=c6942cfe9174d6de0b2ceed0c0a1c6f3
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=a5574fabc0221fb7069c74d3fb2b6c85
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+    - Name: Node4
+      Id: g=2731e0ee5e869b11e94c4800c9dbc763
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/FuzzingDbWalFiles/Recipes"
+      Children:
+      - Name: Kind
+        Id: g=fd9ff90f92c33d4e15ef848bfd4b314c
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=1ea64f7edc0f8a6ea5ff41402c66a5f3
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Id: g=c0c8c2e0cfc93893a878a9f7dbeb99ec
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+    Value: "0:00:00:0.0000000"
+  - Name: DeltaObserverEnabled
+    Id: g=69adaaa81f3354dc89fd9bbedf487420
     Type: BaseDataVariableType
     DataType: Boolean
     ReferenceType: HasProperty

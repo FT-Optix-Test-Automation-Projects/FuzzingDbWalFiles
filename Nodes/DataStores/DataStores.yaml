@@ -1,2 +1,157 @@
 Name: DataStores
+Id: g=392945e2514d831cd83c10354ad71dcb
 Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase1
+  Id: g=4e7f2c000c6c9befb6a3d9efe6ddc8d2
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=23146a7c38a5fcf6db700f1c1da5f9e5
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=13;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: g=f585a3d53992a37020172fb9412e92da
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Id: g=69c429648e7f78e03d8988c39820ffe1
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Id: g=b88b6da966751a43178ca28f6cd31013
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Id: g=0a61ab8942931b40c848e6ca6f671fad
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=9;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=59
+    Direction: Forward
+- Name: ODBCDatabase1
+  Id: g=2eb927b43c4a2d0c6d246e6099d55261
+  Type: ODBCStore
+  Children:
+  - Name: Tables
+    Id: g=c34b8807d61ea72feed8c16e08973415
+    Type: BaseObjectType
+  - Name: Type
+    Id: g=f53334eea80295f292fc4b8ccb14f374
+    Type: PropertyType
+    DataType: DBMSType
+    Value: 2
+  - Name: Username
+    Id: g=96addb5d07130bb2f760e979ebcf5a48
+    Type: PropertyType
+    DataType: String
+    Value: ""
+  - Name: Password
+    Id: g=ef62545fdc018b2f0ee8e06109f33e89
+    Type: PropertyType
+    DataType: Password
+    Value: ""
+  - Name: MaxColumnNameLength
+    Id: g=64e286569f125bed4fecb06f7ffd27f4
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Id: g=07939f52263a7449621ddb7edcff613a
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Id: g=5f4c00c815b8835e45d224e6485f1e51
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Id: g=c3e300f380287884f61ef5ac4f61fe94
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=9;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=59
+    Direction: Forward
