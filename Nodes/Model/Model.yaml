@@ -1,3 +1,20 @@
 Name: Model
 Id: g=eca4bbf2d25e6a63c6ecba7fab200b89
 Type: ModelCategoryFolder
+Children:
+- Name: Object1
+  Id: g=bd1d27a6e8c8b513bb9530f0dcf192a7
+  Type: BaseObjectType
+  DisplayName: {"LocaleId":"en-US","Text":"Ojb"}
+  Description: {"LocaleId":"en-US","Text":"Obj 1"}
+  Children:
+  - Name: Variable1
+    Id: g=77faf7a86da4d26c6af68273b50923ef
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Variable2
+    Id: g=2677a7af8dc9f5ec36ce40df3f3405ae
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 5.0

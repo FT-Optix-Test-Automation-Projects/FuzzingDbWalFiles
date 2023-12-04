@@ -45,3 +45,30 @@ Children:
   - Class: Reference
     Target: ns=11;i=60
     Direction: Forward
+  - Name: Store
+    Id: g=cc223011305d77ad189b17b39c613544
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/FuzzingDbWalFiles/DataStores/EmbeddedDatabase1"
+    Children:
+    - Name: Kind
+      Id: g=79a877832886e277b74322d021b6163c
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TableName
+    Id: g=ffb339cb0ef526a855e14cbc68c1ed6e
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Recipies"
+  - Name: TargetNode
+    Id: g=2e3e9c84eef594ffc0d20de494209cfc
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/FuzzingDbWalFiles/Model/Object1"
+    Children:
+    - Name: Kind
+      Id: g=3f0fe379e12c413e8fe2e753433f67fd
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
